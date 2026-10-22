@@ -167,7 +167,7 @@ export function Footer() {
             © {new Date().getFullYear()} Delwyns Ventures Ltd. All rights reserved.
           </p>
           
-          {/* Powered By Zynavo */}
+          {/* Powered By Delywns IT Hub */}
           <div className="flex items-center gap-2 text-primary-foreground/40 text-sm">
             <Code size={14} className="text-accent" />
             <span>Powered by</span>
@@ -177,7 +177,7 @@ export function Footer() {
               rel="noopener noreferrer"
               className="text-accent hover:text-accent/80 font-semibold transition-colors"
             >
-              Zynavo Solutions Ltd
+              Delywns IT Hub
             </a>
           </div>
 
