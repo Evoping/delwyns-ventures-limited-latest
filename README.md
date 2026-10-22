@@ -18,4 +18,4 @@ npm install
 npm run dev
 
 ## Author
-Nicolas Wanjau
+Dev Evans Mugacha
