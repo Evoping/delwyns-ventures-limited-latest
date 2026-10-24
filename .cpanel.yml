@@ -1,4 +1,3 @@
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/delwynsv/public_html/
-    - /bin/cp -R * $DEPLOYPATH
+    - export DEPLOYPATH=/home/delwynsv/public_html/ && npm ci && npm run build && /bin/mkdir -p "$DEPLOYPATH" && /bin/cp -R dist/. "$DEPLOYPATH"
